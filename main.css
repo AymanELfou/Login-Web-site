@@ -1,0 +1,158 @@
+body {
+    
+    background-color: #F0F0F0;
+}
+
+.cntrimg{
+    margin-left: 12%;
+        margin-top: 190px;
+        position: relative;
+        top: 20px;
+}
+
+aside{
+    float: right;
+    border-color: white;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    width: 410px ;
+    height: 380px;
+    font-family: Helvetica, Arial, sans-serif;
+    position: relative;
+    bottom: 200px;
+    margin-right: 139px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    line-height: 1.34;
+    
+    
+    
+
+}
+/*
+form , input{
+ font-family: inherit
+ margin: 5px;
+ width: 350px;
+ height: px;
+ border-radius: 6px;
+ 
+ border-color: white;
+ background-color: #FFFFFF;
+ font-size: 15px;
+ font-family: Helvetica, Arial, sans-serif;
+ transition: cubic-bezier(0.19, 1, 0.22, 1);
+ padding: 10px;
+}
+*/
+
+
+
+
+
+form, table, .inp{
+position: relative;
+left: -6px;
+bottom: 8px;
+
+
+left: -5px;
+ margin: 7px;
+  width: 333px;
+ height: 30px;
+ border-radius: 6px;
+ font-size: 18px;
+ border-color: rgb(216, 212, 212);
+ font-family: Helvetica, Arial, sans-serif;
+ padding: 9px;
+}
+
+
+
+ .inp :focus{
+    border-color:  #1877f2 ;
+}
+.hr{
+    opacity: 0,8;
+}
+
+
+
+.sub{
+    background-color: #1877f2;
+    color: white;
+    margin: 8px;
+    padding: 0 16px;
+    width: 355px;
+    border-color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    line-height: 48px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 2px;
+    
+}
+.Pass{
+    margin: 6px;
+   margin-top: 20px;
+    
+    margin-left: 99px;
+    padding: 10px;
+    margin-bottom:15px ;
+    font-size: 14px;
+    line-height: 30px;
+    color: rgba(56, 56, 255, 0.918);
+}
+
+
+#mdp{
+    background-color: white;
+    border: non;
+    text-decoration: underline;
+    border-radius: 0;
+    border: non;
+
+}
+
+.compt{
+    color: white;
+    line-height: 25px;
+    font-size: 19px;
+    background-color: #36a420;
+    border-color: #36a420;
+    border-radius: 6px ;
+    padding: 0 15px;
+    margin-left: 50px; ;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    margin-top: 15px;
+
+}
+
+.sub:hover{
+    background-color: rgb(83, 83, 247) ;
+}
+.sub:active {
+    background-color: rgb(77, 77, 180) ;
+}
+.Pass:hover{
+    text-decoration: underline;
+}
+.compt:hover{
+    background-color:rgb(17, 158, 17);
+}
+.hr{
+    color: rgba(0, 0, 0, 0.5);
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #36a420;
+    padding: 10px 30px;
+
+    border-radius: 5px;
+}
